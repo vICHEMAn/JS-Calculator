@@ -1,0 +1,132 @@
+body {
+  font-family: 'Anonymous Pro', monospace;
+}
+
+p {
+
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+
+.calculator {
+  width: 225px;
+  height: 342px;
+
+  border: 1px solid #000;
+  border-radius: 10px;
+
+  background-color: #DCDCDC;
+
+  margin: 100px auto 0;
+  padding: 30px 15px;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+.results {
+  width: 185px;
+  height: 52px;
+
+  border: 1px solid #000;
+  border-radius: 5px;
+
+  background-color: #E5EBDE;
+
+  margin: 0 auto 10px;
+  padding: 5px;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-flow: row wrap;
+}
+
+  #accumulator {
+    width: 100%;
+    margin: 5px 0 0;
+
+    font-size: 20px;
+    text-align: right;
+
+    flex-basis: 100%;
+  }
+
+  #currentOperation {
+    width: 100%;
+    margin: -8px 3px 0 0;
+
+    font-size: 12px;
+    text-align: right;
+
+    flex-basis: 100%;
+  }
+
+
+
+.row {
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  max-width: 35px;
+  height: 35px;
+
+  margin: 5px 5px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background-color: #D8D8CC;
+
+  text-align: center;
+  font-family: 'Anonymous Pro', monospace;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+button:focus {
+  outline: 0;
+}
+
+button:hover {
+  opacity: 0.6;
+}
+
+#dot {
+  width: 35px;
+  height: 35px;
+}
+
+#zero {
+  min-width: 85px;
+  height: 35px;
+}
+
+#equals {
+  min-height: 80px;
+  width: 35px;
+}
+
+footer {
+  margin: 10px auto 0;
+}
+
+a  {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  font-weight: bold;
+}
